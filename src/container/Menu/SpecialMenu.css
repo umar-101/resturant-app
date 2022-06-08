@@ -15,3 +15,61 @@
     margin: 2rem 0rem;
     align-items: flex-start;
 }
+
+.app__specialMenu-menu-heading{
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+
+.app__specialMenu-menu-wine,
+.app__specialMenu-menu-cocktail{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__specialMenu-menu-img{
+    width: 410px;
+    margin:0 2rem
+}
+
+.app__specialMenu-menu-img img{
+    width: 100%;
+    height: auto;
+}
+
+.app__specialMenu-menu-items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+
+
+@media screen and(max-width:2000px){
+    
+}
+
+
+@media screen and(max-width:1150px){
+    .app__specialMenu-menu{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+
+@media screen and(max-width:650px){
+    .app__specialMenu-menu-img{
+        width: 100%;
+    }
+    .app__specialMenu-menu-heading{
+      font-size: 35px;
+    }
+}
